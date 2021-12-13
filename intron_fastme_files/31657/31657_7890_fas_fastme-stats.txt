@@ -1,0 +1,145 @@
+
+ - FastME 2.1.6 - 
+
+
+Paper to be cited:
+
+FastME 2.0 - A comprehensive, accurate and fast distance-based phylogeny inference program.
+	Vincent Lefort, Richard Desper and Olivier Gascuel,
+	Molecular Biology and Evolution 32(10), 2798-800, 2015.
+
+-------------------------------------------------------------------------------
+Settings for this run:
+
+  I                                      Input data type  DNA             
+  E                                   evolutionary model  F84             
+  G                    Gamma rate variation across sites  1.000000        
+  R                              Remove sites whith gaps  no              
+  O                    Output calculated distance matrix  yes             
+
+  D                                   Number of datasets  1               
+  M                         Initial tree building method  TaxAdd_BalME    
+  N                                   NNI postprocessing  no              
+  S                                   SPR postprocessing  yes             
+
+  B                      Bootstrap: number of replicates  100             
+
+-------------------------------------------------------------------------------
+Dataset 1
+	85% of sites contain gaps.
+
+	Before SPR:     tree length is 4.62705453
+	SPR      1: new tree length is 4.62529457
+	SPR      2: new tree length is 4.62451120
+	SPR      3: new tree length is 4.62413309
+	SPR      4: new tree length is 4.62369689
+	SPR      5: new tree length is 4.62328005
+	SPR      6: new tree length is 4.62299208
+	SPR      7: new tree length is 4.62282586
+	SPR      8: new tree length is 4.62266443
+	SPR      9: new tree length is 4.62256524
+	SPR     10: new tree length is 4.62247490
+	SPR     11: new tree length is 4.62242209
+	Performed 11 SPR(s).
+
+	Explained variance : 0.99133556
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

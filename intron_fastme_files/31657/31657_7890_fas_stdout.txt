@@ -1,0 +1,21 @@
+
+
+#  Analysing dataset 1
+
+ . Computing pairwise distances...
+
+ . Warning: 85% of sites contain gaps.
+
+ . Computing tree...
+
+ . Performing SPR...
+
+ . Non parametric bootstrap analysis...
+
+  [....................] 20/100
+  [....................] 40/100
+  [....................] 60/100
+  [....................] 80/100
+  [....................] 100/100
+
+ . Time used 0h03m25s

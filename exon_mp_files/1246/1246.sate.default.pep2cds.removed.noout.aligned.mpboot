@@ -1,0 +1,223 @@
+MPBoot 1.1.0 built Mar 23 2018
+
+Input file name: /home/subomi/Documents/CMSC829A/exon_phylip_files/1246.sate.default.pep2cds.removed.noout.aligned
+Type of analysis: Parsimony tree reconstruction + MPBoot bootstrap approximation (1000 replicates)
+Random seed number: 895723
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 45 sequences with 15777 nucleotide sites
+Number of constant sites: 10624 (= 67.3385% of all sites)
+Number of site patterns: 4993
+
+MAXIMUM PARSIMONY TREE
+-----------------------
+
+NOTE: Tree is UNROOTED although outgroup taxon 'NIPNI' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap supports (%)
+
++--NIPNI
+|
+|                                      +--CALAN
+|                                   +--| (83)
+|                                   |  +--CHAPE
+|                                +--| (77)
+|                                |  |           +--CORBR
+|                                |  |        +--| (100)
+|                                |  |        |  |  +--GEOFO
+|                                |  |        |  +--| (100)
+|                                |  |        |     +--TAEGU
+|                                |  |     +--| (100)
+|                                |  |     |  +--MANVI
+|                                |  |  +--| (100)
+|                                |  |  |  +--ACACH
+|                                |  +--| (100)
+|                                |     +--PICPU
+|                             +--| (74)
+|                             |  |  +--MELUN
+|                             |  +--| (100)
+|                             |     +--NESNO
+|                          +--| (98)
+|                          |  +--COLST
+|                       +--| (10)
+|                       |  |  +--EURHE
+|                       |  +--| (45)
+|                       |     +--APAVI
+|                    +--| (19)
+|                    |  |  +--CAPCA
+|                    |  +--| (18)
+|                    |     |  +--STRCA
+|                    |     +--| (100)
+|                    |        |     +--MELGA
+|                    |        |  +--| (100)
+|                    |        |  |  +--GALGA
+|                    |        +--| (100)
+|                    |           +--ANAPL
+|                 +--| (18)
+|                 |  |  +--CUCCA
+|                 |  +--| (51)
+|                 |     +--MESUN
+|              +--| (5)
+|              |  |        +--TYTAL
+|              |  |     +--| (77)
+|              |  |     |  +--CHLUN
+|              |  |  +--| (26)
+|              |  |  |  |  +--HALAL
+|              |  |  |  +--| (100)
+|              |  |  |     +--HALLE
+|              |  +--| (14)
+|              |     |  +--FALPE
+|              |     +--| (46)
+|              |        +--CARCR
+|           +--| (54)
+|           |  |        +--OPHHO
+|           |  |     +--| (15)
+|           |  |     |  |     +--COLLI
+|           |  |     |  |  +--| (62)
+|           |  |     |  |  |  +--BUCRH
+|           |  |     |  +--| (37)
+|           |  |     |     +--LEPDI
+|           |  |  +--| (16)
+|           |  |  |  |  +--PTEGU
+|           |  |  |  +--| (77)
+|           |  |  |     +--TAUER
+|           |  +--| (5)
+|           |     |     +--PHORU
+|           |     |  +--| (100)
+|           |     |  |  +--PODCR
+|           |     +--| (27)
+|           |        +--BALRE
+|        +--| (57)
+|        |  +--GAVST
+|     +--| (28)
+|     |  |  +--CHAVO
+|     |  +--| (83)
+|     |     +--PHALE
+|  +--| (21)
+|  |  |  +--FULGL
+|  |  +--| (63)
+|  |     |  +--PYGAD
+|  |     +--| (100)
+|  |        +--APTFO
++--| (55)
+|  |  +--PELCR
+|  +--| (52)
+|     +--EGRGA
+|
++--PHACA
+
+Parsimony score of the tree: 17740
+Tree in newick format:
+
+(NIPNI,(((((((((((((CALAN,CHAPE)83,((((CORBR,(GEOFO,TAEGU)100)100,MANVI)100,ACACH)100,PICPU)100)77,(MELUN,NESNO)100)74,COLST)98,(EURHE,APAVI)45)10,(CAPCA,(STRCA,((MELGA,GALGA)100,ANAPL)100)100)18)19,(CUCCA,MESUN)51)18,(((TYTAL,CHLUN)77,(HALAL,HALLE)100)26,(FALPE,CARCR)46)14)5,(((OPHHO,((COLLI,BUCRH)62,LEPDI)37)15,(PTEGU,TAUER)77)16,((PHORU,PODCR)100,BALRE)27)5)54,GAVST)57,(CHAVO,PHALE)83)28,(FULGL,(PYGAD,APTFO)100)63)21,(PELCR,EGRGA)52)55,PHACA);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Branches with bootstrap support >0.000000% are kept (extended consensus)
+Numbers in parentheses are bootstrap supports (%)
+
++--NIPNI
+|
+|                                      +--CALAN
+|                                   +--| (83)
+|                                   |  +--CHAPE
+|                                +--| (77)
+|                                |  |           +--CORBR
+|                                |  |        +--| (100)
+|                                |  |        |  |  +--GEOFO
+|                                |  |        |  +--| (100)
+|                                |  |        |     +--TAEGU
+|                                |  |     +--| (100)
+|                                |  |     |  +--MANVI
+|                                |  |  +--| (100)
+|                                |  |  |  +--ACACH
+|                                |  +--| (100)
+|                                |     +--PICPU
+|                             +--| (74)
+|                             |  |  +--MELUN
+|                             |  +--| (100)
+|                             |     +--NESNO
+|                          +--| (98)
+|                          |  +--COLST
+|                       +--| (48)
+|                       |  +--CAPCA
+|                    +--| (60)
+|                    |  |  +--STRCA
+|                    |  +--| (100)
+|                    |     |     +--MELGA
+|                    |     |  +--| (100)
+|                    |     |  |  +--GALGA
+|                    |     +--| (100)
+|                    |        +--ANAPL
+|                 +--| (18)
+|                 |  |  +--CUCCA
+|                 |  +--| (51)
+|                 |     +--MESUN
+|              +--| (5)
+|              |  |        +--TYTAL
+|              |  |     +--| (77)
+|              |  |     |  +--CHLUN
+|              |  |  +--| (26)
+|              |  |  |  |  +--HALAL
+|              |  |  |  +--| (100)
+|              |  |  |     +--HALLE
+|              |  +--| (14)
+|              |     |  +--FALPE
+|              |     +--| (46)
+|              |        +--CARCR
+|           +--| (54)
+|           |  |              +--EURHE
+|           |  |           +--| (45)
+|           |  |           |  +--APAVI
+|           |  |        +--| (23)
+|           |  |        |  |     +--COLLI
+|           |  |        |  |  +--| (62)
+|           |  |        |  |  |  +--BUCRH
+|           |  |        |  +--| (37)
+|           |  |        |     +--LEPDI
+|           |  |     +--| (21)
+|           |  |     |  |  +--PTEGU
+|           |  |     |  +--| (77)
+|           |  |     |     +--TAUER
+|           |  |  +--| (2)
+|           |  |  |  +--OPHHO
+|           |  +--| (4)
+|           |     |     +--PHORU
+|           |     |  +--| (100)
+|           |     |  |  +--PODCR
+|           |     +--| (27)
+|           |        +--BALRE
+|        +--| (57)
+|        |  +--GAVST
+|     +--| (28)
+|     |  |  +--CHAVO
+|     |  +--| (83)
+|     |     +--PHALE
+|  +--| (21)
+|  |  |  +--FULGL
+|  |  +--| (63)
+|  |     |  +--PYGAD
+|  |     +--| (100)
+|  |        +--APTFO
++--| (55)
+|  |  +--PELCR
+|  +--| (52)
+|     +--EGRGA
+|
++--PHACA
+
+
+Consensus tree in newick format: 
+
+(NIPNI,(((((((((((((CALAN,CHAPE)83,((((CORBR,(GEOFO,TAEGU)100)100,MANVI)100,ACACH)100,PICPU)100)77,(MELUN,NESNO)100)74,COLST)98,CAPCA)48,(STRCA,((MELGA,GALGA)100,ANAPL)100)100)60,(CUCCA,MESUN)51)18,(((TYTAL,CHLUN)77,(HALAL,HALLE)100)26,(FALPE,CARCR)46)14)5,(((((EURHE,APAVI)45,((COLLI,BUCRH)62,LEPDI)37)23,(PTEGU,TAUER)77)21,OPHHO)2,((PHORU,PODCR)100,BALRE)27)4)54,GAVST)57,(CHAVO,PHALE)83)28,(FULGL,(PYGAD,APTFO)100)63)21,(PELCR,EGRGA)52)55,PHACA);
+
+TIME STAMP
+----------
+
+Date and time: Wed Dec 15 12:01:51 2021
+Total CPU time used: 81.839 seconds (0h:1m:21s)
+Total wall-clock time used: 81.8783 seconds (0h:1m:21s)
+
